@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  direction: rtl;
+  background-image: url('https://c.top4top.io/s_3475krjvw0.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: black;
+  min-height: 100vh;
+  backdrop-filter: brightness(0.85) blur(1px);
+}
+
+.app {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+h1, h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #111;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"] {
+  padding: 8px;
+  margin: 4px;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+  width: 160px;
+  font-size: 16px;
+  color: black;
+}
+
+button {
+  padding: 8px 14px;
+  margin: 4px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #388E3C;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 6px rgba(0,0,0,0.1);
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f0f0f0;
+  color: black;
+}
+
+tr:hover {
+  background-color: #f9f9f9;
+}
+
+input[type="number"] {
+  text-align: center;
+}
